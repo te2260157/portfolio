@@ -361,9 +361,21 @@ html {
 
 }
 
-.contact-content {
-    text-align: center;
+.contact {
 
-    height: 100vh;
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+.contact-content {
+
+    text-align: center;
 
 }
