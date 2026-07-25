@@ -343,24 +343,27 @@ html {
 
 .contact a {
 
-    display:inline-block;
+    display: inline-block;
 
-    padding:12px 25px;
+    padding: 12px 25px;
 
-    margin:10px;
+    margin: 10px;
 
-    border-radius:30px;
+    border-radius: 30px;
 
-    text-decoration:none;
+    text-decoration: none;
 
     justify-content: center;
 
-    background:white;
+    background: white;
 
-    color:black;
+    color: black;
 
 }
 
 .contact-content {
     text-align: center;
+
+    height: 100vh;
+
 }
