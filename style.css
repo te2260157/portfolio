@@ -340,3 +340,21 @@ html {
     margin-bottom: 30px;
 
 }
+
+.contact a {
+
+    display:inline-block;
+
+    padding:12px 25px;
+
+    margin:10px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    background:black;
+
+    color:white;
+
+}
