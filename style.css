@@ -324,3 +324,7 @@ button {
     background:#222;
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
