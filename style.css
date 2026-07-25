@@ -166,3 +166,90 @@ button {
     line-height:1.8;
 
 }
+
+.projects {
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#050505;
+
+}
+
+
+.projects-content {
+
+    width:80%;
+
+    text-align:center;
+
+}
+
+
+.projects h2 {
+
+    font-size:60px;
+
+    margin-bottom:50px;
+
+}
+
+
+.project-list {
+
+    display:flex;
+
+    gap:30px;
+
+    justify-content:center;
+
+}
+
+
+.project-card {
+
+    width:300px;
+
+    padding:40px;
+
+    background:#111;
+
+    border-radius:20px;
+
+    text-align:left;
+
+    transition:0.3s;
+
+}
+
+
+.project-card:hover {
+
+    transform:translateY(-10px);
+
+    background:#1a1a1a;
+
+}
+
+
+.project-card h3 {
+
+    font-size:25px;
+
+    margin-bottom:20px;
+
+}
+
+
+.project-card p {
+
+    color:#999;
+
+    line-height:1.6;
+
+}
