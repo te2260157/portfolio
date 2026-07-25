@@ -110,3 +110,59 @@ button {
     cursor:pointer;
 
 }
+
+.about {
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#0b0b0b;
+
+}
+
+
+.about-content {
+
+    text-align:center;
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:1s;
+
+}
+
+
+.about-content.show {
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+.about h2 {
+
+    font-size:60px;
+
+    margin-bottom:30px;
+
+}
+
+
+.about p:last-child {
+
+    color:#aaa;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
