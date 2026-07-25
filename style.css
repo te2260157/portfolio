@@ -353,8 +353,10 @@ html {
 
     text-decoration:none;
 
-    background:black;
+    justify-content: center;
 
-    color:white;
+    background:white;
+
+    color:black;
 
 }
