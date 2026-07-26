@@ -255,9 +255,11 @@ button {
 
 .project-card {
 
-    width: 300px;
+    min-height: 300px;
 
-    padding: 40px;
+    display: flex;
+
+    flex-direction: column;
 
     background: #111;
 
@@ -437,29 +439,32 @@ body {
 
 .tags {
 
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
-    color:#777;
+    color: #777;
 
-    font-size:14px;
+    font-size: 14px;
 
 }
 
 
 .project-card a {
 
-    color:white;
+    color: white;
 
-    text-decoration:none;
+    text-decoration: none;
 
-    font-size:14px;
+    font-size: 14px;
+
+    margin-top: auto;
+
 
 }
 
 
 .project-card a:hover {
 
-    opacity:0.6;
+    opacity: 0.6;
 
 }
