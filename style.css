@@ -596,8 +596,8 @@ body {
     height: 500px;
 
     background: radial-gradient(circle,
-            rgba(255, 255, 255, 0.15),
-            transparent 70%);
+            rgba(255, 255, 255, 0.3),
+            transparent 60%);
 
     top: 20%;
 
@@ -605,7 +605,7 @@ body {
 
     transform: translateX(-50%);
 
-    filter: blur(40px);
+    filter: blur(50px);
 
 }
 
