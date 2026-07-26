@@ -434,3 +434,32 @@ body {
     text-align: center;
 
 }
+
+.tags {
+
+    margin-top:20px;
+    margin-bottom:20px;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+.project-card a {
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+}
+
+
+.project-card a:hover {
+
+    opacity:0.6;
+
+}
