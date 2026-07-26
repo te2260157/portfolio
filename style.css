@@ -27,6 +27,10 @@ body {
 
     align-items: center;
 
+    position: relative;
+
+    overflow: hidden;
+
 }
 
 
@@ -35,6 +39,13 @@ body {
     text-align: center;
 
     animation: fadeUp 1s ease;
+
+    position: relative;
+
+    z-index: 1;
+
+    animation: heroAppear 1.2s ease;
+
 
 }
 
@@ -78,6 +89,9 @@ h1 {
     font-weight: 700;
 
     margin-bottom: 20px;
+
+    animation: titleGlow 3s infinite alternate;
+
 
 }
 
@@ -392,6 +406,8 @@ body {
 
     height: 200px;
 
+    animation: float 4s ease-in-out infinite;
+
     object-fit: cover;
 
     border-radius: 50%;
@@ -566,5 +582,96 @@ body {
 .nav-menu a:hover {
 
     color: white;
+
+}
+
+.hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+
+    height: 500px;
+
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.15),
+            transparent 70%);
+
+    top: 20%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    filter: blur(40px);
+
+}
+
+@keyframes heroAppear {
+
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(40px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes float {
+
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+
+    50% {
+
+        transform: translateY(-15px);
+
+    }
+
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+
+}
+
+@keyframes titleGlow {
+
+
+    from {
+
+        text-shadow:0 0 0px white;
+
+    }
+
+
+    to {
+
+        text-shadow:0 0 20px rgba(255,255,255,0.5);
+
+    }
+
 
 }
