@@ -30,7 +30,7 @@ body {
 
 .hero-content {
 
-    text-align:center;
+    text-align: center;
 
     animation: fadeUp 1s ease;
 
@@ -41,15 +41,15 @@ body {
 
     from {
 
-        opacity:0;
-        transform:translateY(40px);
+        opacity: 0;
+        transform: translateY(40px);
 
     }
 
     to {
 
-        opacity:1;
-        transform:translateY(0);
+        opacity: 1;
+        transform: translateY(0);
 
     }
 
@@ -166,6 +166,27 @@ button {
 
 }
 
+
+.project-card,
+.skill-card {
+
+    opacity: 0;
+
+    transform: translateY(50px);
+
+    transition: 1s;
+
+}
+
+
+.project-card.show,
+.skill-card.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
 
 .about h2 {
 
@@ -348,6 +369,17 @@ button {
 
 html {
     scroll-behavior: smooth;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+
+body {
+
+    scroll-snap-type: y mandatory;
+
 }
 
 .profile-image {
