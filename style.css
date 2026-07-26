@@ -675,3 +675,27 @@ body {
 
 
 }
+
+.hero::after {
+
+    content:"";
+
+    position:absolute;
+
+    width:400px;
+
+    height:400px;
+
+    background:radial-gradient(
+        circle,
+        rgba(255,255,255,0.15),
+        transparent 70%
+    );
+
+    bottom:-100px;
+
+    right:10%;
+
+    filter:blur(50px);
+
+}
