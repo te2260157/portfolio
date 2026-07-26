@@ -596,7 +596,7 @@ body {
     height: 500px;
 
     background: radial-gradient(circle,
-            rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.5),
             transparent 60%);
 
     top: 20%;
