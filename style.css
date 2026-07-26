@@ -30,7 +30,28 @@ body {
 
 .hero-content {
 
-    text-align: center;
+    text-align:center;
+
+    animation: fadeUp 1s ease;
+
+}
+
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to {
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
 
 }
 
@@ -200,7 +221,9 @@ button {
 
 .project-list {
 
-    display: flex;
+    display: grid;
+
+    grid-template-columns: repeat(2, 300px);
 
     gap: 30px;
 
@@ -379,8 +402,3 @@ html {
     text-align: center;
 
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
